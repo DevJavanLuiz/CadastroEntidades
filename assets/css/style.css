@@ -1,0 +1,595 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+a {
+    color: #000000;
+    font-size: 1.8rem;
+}
+
+p {
+    font-size: 1.4rem;
+}
+
+h1 {
+    font-size: 6.4rem;
+    text-align: center;
+}
+
+h3 {
+    font-size: 3.6rem;
+    width: 100%;
+}
+
+span {
+    color: #FF5678;
+}
+
+aside {
+    margin-right: 10rem;
+    margin-bottom: 7rem;
+}
+
+main p {
+    margin-top: 3.5rem;
+    margin-bottom: 2.0rem;
+    text-align: center;
+}
+
+main {
+    width: 100%;
+    max-width: 58rem;
+    height: 52rem;
+    border: 0.1px solid #00000026;
+    padding: 3rem;
+    margin-left: 6rem;
+    border-radius: 1.2rem;
+    position: relative;
+}
+
+main .btn a {
+    height: 5.5rem;
+    border-radius: 14rem;
+    font-size: 2.4rem;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main .btn-login {
+    color: #FFFFFF;
+    background-color: #FF5678;
+    margin-top: 3.6rem;
+}
+
+footer a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+.conteudo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 12rem;
+    width: 95%;
+    min-height: 90vh;
+    margin: 0 auto;
+}
+
+a:hover {
+    color: #FF5678;
+    
+}
+
+.btn a:hover {
+    background-color: rgba(128, 128, 128, 0.464);
+    color: #FFFFFF;
+}
+
+form {
+    margin-top: -2rem;
+}
+
+.formulario-cad {
+    display: grid;
+    justify-content: center;
+}
+
+.formulario-cad input {
+    width: 100%;
+    max-width: 49rem;
+    height: 5.5rem;
+    border: 0.1rem solid #00000026;
+    border-radius: 1.2rem;
+    padding-left: 2rem;
+    font-size: 1.6rem;
+}
+
+.formulario-cad label {
+    margin-top: 3rem;
+    font-size: 1.7rem;
+}
+
+.btn-cadastrar:hover {
+    background-color: #00000026;
+    color: #FFFFFF;
+
+}
+
+.btn-cadastrar {
+    text-decoration: none;
+    display: flex;
+    background-color: #FF5678;
+    height: 5.5rem;
+    border-radius: 14rem;
+    font-size: 2.4rem;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFFFFF;
+    margin-top: 3rem;
+}
+
+.ponto-coleta-mais {
+    margin-top: 2.7rem;
+}
+
+main form input+button {
+    position: absolute;
+    top: 38.5rem;
+    left: 55rem;
+}
+
+select {
+    width: 49rem;
+    height: 5.5rem;
+    border: 0.1rem solid #00000026;
+    border-radius: 1.2rem;
+    padding-left: 2rem;
+    font-size: 1.6rem;
+    cursor: pointer;
+}
+
+form p {
+    margin-top: 2.5rem;
+    font-size: 1.9rem;
+}
+
+.conteudo-cadastrada {
+    display: grid;
+    justify-content: center;
+    width: 100%;
+}
+
+main.alinhamento-main {
+    display: grid;
+    justify-content: center;
+}
+
+
+.alinhamento-main section {
+    margin: 0.5rem;
+    margin-left: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-bottom: 0.1rem solid #00000026;
+}
+
+section span {
+    font-size: 2.4rem;
+}
+
+
+section p {
+    font-size: 2.2rem;
+    transition: all 300ms ease-in-out;
+    width: 22rem;
+    height: 4rem;
+    border: 0.1rem solid #35E6E9;
+    border-radius: 1.2rem;
+    font-size: 1.6rem;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #35E6E9;
+    margin-left: 3rem;
+    margin-right: 3rem;
+}
+
+.conteudo-cadastrada {
+    margin-top: 7rem;
+}
+
+.conteudo-cadastrada h1 {
+    margin-bottom: 3rem;
+    margin-left: 5rem;
+}
+
+.conteudo-cadastrada a {
+    font-size: 1.2rem;
+}
+
+.conteudo-cadastrada p:hover {
+    transform: scale(1.1);
+    text-decoration: underline;
+}
+
+.alinhar-h3 h3 {
+    margin-right: 25rem;
+    margin-left: 5rem;
+    margin-top: 0.5rem;
+}
+
+.seta-voltar {
+    width: 2rem;
+    position: absolute;
+    margin-top: 1rem;
+}
+
+.alinhar-button-cor {
+    display: flex;
+    align-items: start;
+}
+
+h1 {
+    position: relative;
+}
+
+ .mudar-cor {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 20rem;
+    position: absolute;
+    cursor: pointer;
+    z-index: 1;
+    margin-top: 33.5rem;
+    max-width: 100%;
+    background-color: #FF5678;
+    border: 0.5rem solid #35E6E9;
+    transition: all 300ms ease-in-out;
+}
+
+.mudar-cor:hover {
+    background-color: #35E6E9;
+    border: 0.4rem solid #FF5678;
+    transform: scale(1.3);
+}
+header .mudar-cor{
+    margin-top: -8rem;
+    margin-left: 15rem;
+}
+
+    
+@media (max-width: 1290px) {
+
+    main {
+        border: none;
+        padding: 0rem;
+        margin: 0rem;
+        margin-top: -3rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .conteudo {
+        border: 0.1rem solid #00000026;
+        border-radius: 1.6rem;
+        margin-top: 3.5rem;
+        display: grid;
+        justify-content: center;
+    }
+
+    .alinhar-h3 h3 {
+        margin-top: 2rem;
+        margin-left: 0rem;
+        font-size: 2.1rem;
+        margin-bottom: 5rem;
+    }
+
+    h1 {
+        font-size: 3.5rem;
+        margin-bottom: 5rem;
+    }
+
+
+    aside {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+    }
+
+    img {
+        width: 30rem;
+        margin-top: 3rem;
+    }
+
+    main .btn .btn-login {
+        width: 38rem;
+        font-size: 1.8rem;
+        border-radius: 14rem;
+        margin-top: 2rem;
+        height: 4rem;
+    }
+
+    .formulario-cad input {
+        max-width: 30rem;
+        height: 4rem;
+        border: 0.1rem solid #00000026;
+        border-radius: 1.2rem;
+        padding-left: 2rem;
+        font-size: 1.6rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .formulario-cad label {
+        margin-top: 3rem;
+        font-size: 1.7rem;
+        margin-bottom: 0.8rem;
+    }
+
+    .btn-cadastrar {
+        height: 4rem;
+        width: 38rem;
+        border-radius: 3rem;
+        font-size: 2rem;
+        margin-top: 3rem;
+    }
+
+    .btn-cadastrar:hover {
+        background-color: rgba(128, 128, 128, 0.464);
+    }
+
+    .ponto-coleta-mais {
+        margin-top: 2.7rem;
+    }
+
+
+    select {
+        display: flex;
+        width: 30rem;
+        height: 4rem;
+        border: 0.1rem solid #00000026;
+        border-radius: 1.2rem;
+        padding-left: 0;
+        font-size: 1.7rem;
+        cursor: pointer;
+    }
+
+    form {
+        margin-top: -3rem;
+    }
+
+    form p {
+        margin: 0;
+        margin-top: 2rem;
+        font-size: 1.4rem;
+    }
+
+    .alinhar-h3 h3 {
+        margin-right: 25rem;
+        margin-left: 5rem;
+    }
+
+    .seta-voltar {
+        width: 2rem;
+        margin: 0rem;
+        margin-top: 1.5rem;
+        margin-left: 1rem;
+    }
+
+    section {
+        margin: 1rem;
+        width: 35rem;
+        border-bottom: 0.1rem solid #00000026;
+    }
+
+    section span {
+        font-size: 1.6rem;
+    }
+
+
+    section p {
+        font-size: 2rem;
+        height: 5rem;
+        border-radius: 2rem;
+        font-size: 1.6rem;
+        margin-left: 2rem;
+        margin-right: 2rem;
+        width: 15rem;
+    }
+
+    .conteudo-cadastrada {
+        margin-top: 7rem;
+    }
+
+    .conteudo-cadastrada h1 {
+        margin-top: -0.5rem;
+        margin-bottom: 3rem;
+        margin-left: 1rem;
+    }
+
+    .conteudo-cadastrada a {
+        font-size: 1.6rem;
+    }
+
+    .conteudo-cadastrada h3 {
+        margin-left: 8rem;
+    }
+
+
+
+    .alinhamento-main {
+        border: 0.1rem solid #01000026;
+        padding-left: 7rem;
+        padding-right: 7rem;
+        height: 70rem;
+    }
+
+    .alinhamento-main section {
+        margin-left: 3rem;
+        width: 50rem;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+.mudar-cor{
+    margin-top: 26.5rem;
+}
+header .mudar-cor{
+    margin-top: -6.5rem;
+    margin-left: 18rem;
+}
+
+}
+
+@media(max-width: 780px) {
+    img {
+        width: 37rem;
+    }
+
+    .seta-voltar {
+        margin-left: 2rem;
+    }
+
+
+    h3 {
+        font-size: 3rem;
+        max-width: 50rem;
+        margin-left: 5rem;
+    }
+
+    h1 {
+        font-size: 3.5rem;
+        margin-bottom: 5rem;
+    }
+
+    main .btn .btn-login {
+        width: 50rem;
+        font-size: 2.5rem;
+        border-radius: 14rem;
+        margin-top: 4rem;
+        height: 5rem;
+    }
+
+    .alinhamento-main .alinhar-h3 h3 {
+        margin-top: 2rem;
+    }
+
+    .alinhamento-main {
+        max-width: 200rem;
+        width: 55rem;
+        height: 80rem;
+        display: flex;
+        border: 0.1rem solid #00000026;
+        margin-top: 5rem;
+        height: 60rem;
+    }
+
+    .alinhamento-main section {
+        margin-left: 3rem;
+        width: 50rem;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+    header .mudar-cor{
+        margin-left: 16rem;
+    }
+    .mudar-cor{
+        margin-top: 31.7rem;
+        margin-left: 7rem;
+    }
+
+}
+
+@media (max-width: 550px) {
+    .conteudo {
+        max-height: 85vh;
+    }
+
+    img {
+        width: 10rem;
+    }
+
+    .alinhamentor-h3 h3 {
+        margin-left: 5rem;
+        font-size: 1.9rem
+    }
+
+
+    main .btn .btn-login {
+        width: 33rem;
+        font-size: 2rem;
+    }
+
+    .alinhamento-main {
+        max-width: 150rem;
+        width: 35rem;
+        display: flex;
+        border: 0.1rem solid #00000026;
+        margin-top: -2rem;
+        height: 53rem;
+        padding-top: 2rem;
+    }
+
+    .alinhamento-main h3 {
+        margin-left: 5rem;
+        margin-top: 1.3rem;
+        font-size: 1.9rem
+    }
+
+    .alinhamento-main .seta-volta {
+        margin-left: 16rem;
+    }
+
+    .alinhamento-main section {
+        margin-left: 0rem;
+        width: 30rem;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .btn-cadastrar {
+        width: 33rem;
+        margin-bottom: 11rem;
+    }
+    .mudar-cor{
+        margin-top: 11.3rem;
+        margin-left: -7rem;
+    }
+    header .mudar-cor{
+        margin-left: 7rem;
+    }
+}
+.mudar-cor-click{
+    color: #35E6E9;
+}
+
+.mudar-background-click{
+    background-color: #35E6E9;
+}
